@@ -1,3 +1,5 @@
 testing 
 _config.yml
 permalink: /blog/:year/:month/:day/:title
+
+theme: jekyll-theme-time-machine
