@@ -1,26 +1,8 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>{{ House | {{ site.title }}</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href={{ "css/style.css" | relative_url }}>
-	</head>
-	<body>
-		<nav>
-    			<ul>
-        			<li><a href="{{site.baseurl}}">Home</a></li>
-        			<li><a href={{ "blog" | relative_url }}>Blog</a></li>
-    			</ul>
-		</nav>
-		<div class="container">
-		
-			{{ content }}
-		
-		</div><!-- /.container -->
-		<footer>
-	    		<ul>
-        			<li><a href="https://github.com/[j-blackw]">github.com/[jblack-w]</a></li>
-			</ul>
-		</footer>
-	</body>
-</html>
+---
+layout: page
+title: [PAGE TITLE]
+---
+<div class="blurb">
+	<h1>Hi there, I'm SOMEONE!</h1>
+	<p>Here is some example text. Here is <a href="/about">an example hyperlink</a> to another part of this same website.</p>
+</div><!-- /.blurb -->
